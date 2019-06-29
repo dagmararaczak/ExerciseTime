@@ -1,4 +1,4 @@
-package modulo;
+package questions.modulo;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,6 +1,12 @@
-package triangle;
+package questions.triangle;
 
 import java.util.Scanner;
+
+/**
+ * Napisz klasę, która dla trzech zadanych boków stworzy obiekt trójkąt prostokątny,
+ * oraz będzie miała metody zwracające długość przeciwprostokątnej, obwód trójkąta oraz jego pole.
+ * Klasa musi być zaprojektowana zgodnie z zasadami programowania obiektowego i obsługiwać błędy przez rzucanie wyjątków (throws)
+ */
 
 public class Main {
     public static void main(String[] args) {

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b792cda-0756-4a87-a0c0-91449979ab2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/triangle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/triangle/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/triangle/NotRectangularTriangleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/triangle/NotRectangularTriangleException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/triangle/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/triangle/Triangle.java" afterDir="false" />
-    </list>
+    <list default="true" id="1b792cda-0756-4a87-a0c0-91449979ab2f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/triangle/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-352">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -77,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/triangle/NotRectangularTriangleException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#175#176#0" expanded="true" />
@@ -115,9 +108,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/modulo/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/modulo/NameSurnameModuloChecker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/triangle/NotRectangularTriangleException.java" />
         <option value="$PROJECT_DIR$/src/main/java/triangle/Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/triangle/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/triangle/NotRectangularTriangleException.java" />
       </list>
     </option>
   </component>
@@ -176,14 +169,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="RecruitmentQuestions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecruitmentQuestions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="triangle" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,12 +202,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="triangle.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.modulo.Main" />
       <module name="RecruitmentQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="triangle.*" />
+          <option name="PATTERN" value="questions.modulo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +216,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo.Main" />
+      <option name="MAIN_CLASS_NAME" value="questions.triangle.Main" />
       <module name="RecruitmentQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo.*" />
+          <option name="PATTERN" value="questions.triangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +229,11 @@
       </method>
     </configuration>
     <configuration name="NameSurnameModuloChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo.NameSurnameModuloChecker" />
+      <option name="MAIN_CLASS_NAME" value="questions.modulo.NameSurnameModuloChecker" />
       <module name="RecruitmentQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo.*" />
+          <option name="PATTERN" value="questions.modulo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,12 +259,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561792718158</updated>
-      <workItem from="1561792721835" duration="5045000" />
+      <workItem from="1561792721835" duration="5272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5045000" />
+    <option name="totallyTimeSpent" value="5272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="775" extended-state="0" />
@@ -290,7 +275,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.329429" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -300,7 +285,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37335286" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,7 +321,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/triangle/Main.java</url>
-          <line>6</line>
+          <line>5</line>
           <properties class="triangle.Main" method="main">
             <option name="EMULATED" value="true" />
           </properties>
@@ -381,17 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/triangle/NotRectangularTriangleException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/triangle/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -407,13 +381,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/triangle/NotRectangularTriangleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recruitmentQuestios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/triangle/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-352">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

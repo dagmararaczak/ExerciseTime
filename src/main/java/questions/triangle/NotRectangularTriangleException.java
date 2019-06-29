@@ -1,4 +1,4 @@
-package triangle;
+package questions.triangle;
 
 public class NotRectangularTriangleException extends RuntimeException {
 
