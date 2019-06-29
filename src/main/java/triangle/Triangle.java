@@ -7,6 +7,9 @@ public class Triangle {
     int cSide;
 
 
+    public Triangle() {
+    }
+
     public Triangle(int aSide, int bSide, int cSide) {
         this.aSide = aSide;
         this.bSide = bSide;
@@ -52,5 +55,31 @@ public class Triangle {
         }
 
 
+    }
+
+
+
+    public double setTriangleArea(){
+
+        if(aSide == getHypotenuse()){
+
+            return (bSide * cSide)/2;
+
+        }else if (bSide == getHypotenuse()){
+
+            return (aSide * cSide)/2;
+        } else {
+
+            return (aSide * bSide)/2;
+        }
+
+
+
+
+    }
+
+    public double getTriangleCircumference(){
+
+        return aSide + bSide +cSide;
     }
 }
