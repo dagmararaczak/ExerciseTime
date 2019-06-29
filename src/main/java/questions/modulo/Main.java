@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * 1.Napisz program, który „policzy” modulo2z Twojego pełnegoimienia i nazwiska.
+ * 1.Napisz program, który „policzy” modulo 2 z Twojego pełnegoimienia i nazwiska.
  * Każdej literze w alfabecie przyporządkuj jej numer w alfabecie łacińskim.
  * Np. litera A ma pozycje 1, C ma pozycje 3, (...) Z ma pozycje 26.
  * Zsumuj pozycje liter, a następnie wykonaj działanie modulo 2. Dla swojej klasy liczącej rozwiązanie przygotuj 3 testy jednostkowe.
@@ -22,10 +22,26 @@ public class Main {
 
         String nameAndSurname = scanner.nextLine();
 
-        NameSurnameModuloChecker checker = new NameSurnameModuloChecker(nameAndSurname);
 
-        System.out.println("Modulo z twojego imienia i nazwiska wynosi : " +  checker.getModulo());
 
-        
+
+            NameSurnameModuloChecker checker = new NameSurnameModuloChecker(nameAndSurname);
+
+            if(checker.isNameBuildFromAZ()){
+                System.out.println("Modulo z twojego imienia i nazwiska wynosi : " +  checker.getModulo());
+            }else {
+                throw new NotOnlyLetterException("Twoje imie i nazwisko zawieraja inne znaki niz A-Z i spacje");
+            }
+
+
+
+
+
+
+
+
+
+
+
     }
 }

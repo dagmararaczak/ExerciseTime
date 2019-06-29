@@ -28,6 +28,27 @@ public class NameSurnameModuloChecker {
 
     }
 
+    public boolean isNameBuildFromAZ(){
+
+
+            String name =nameAndSurname.toUpperCase();
+
+            for(int i=0; i<name.length();i++)
+            {
+                if((name.charAt(i)>='A' && name.charAt(i)<='Z') | name.charAt(i) == ' ')
+                {
+                    continue;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return true;
+
+
+    }
+
     public Map<Character, Integer> fillTheAlphabetMap() {
 
         List<Character> collect = IntStream.rangeClosed('A', 'Z').mapToObj(var -> (char) var).collect(Collectors.toList());
