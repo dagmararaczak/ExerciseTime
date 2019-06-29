@@ -1,5 +1,7 @@
 package questions.modulo;
 
+import java.util.Scanner;
+
 /**
  *
  * 1.Napisz program, który „policzy” modulo2z Twojego pełnegoimienia i nazwiska.
@@ -14,9 +16,16 @@ package questions.modulo;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        NameSurnameModuloChecker checker = new NameSurnameModuloChecker("Dagmara");
+        System.out.println("Podaj swoje imie i nazwisko nie korzystaj z polskich znakow");
 
-        System.out.println(checker.getModulo());
+        String nameAndSurname = scanner.nextLine();
+
+        NameSurnameModuloChecker checker = new NameSurnameModuloChecker(nameAndSurname);
+
+        System.out.println("Modulo z twojego imienia i nazwiska wynosi : " +  checker.getModulo());
+
+        
     }
 }
