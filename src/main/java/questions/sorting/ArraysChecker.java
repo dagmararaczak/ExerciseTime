@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class ArraysChecker implements Checker {
 
     Sort sort;
+
     Scanner scanner;
     private final int BUBBLE_SORT = 0;
     private final int COUNTING_SORT = 1;
@@ -14,7 +15,7 @@ public class ArraysChecker implements Checker {
     public void setSortType(int[] array) {
 
 
-        Sort sort = checkNumbersTypeInArray(array);
+        sort = checkNumbersTypeInArray(array);
 
         sort.sort(array);
         printSortType(sort);
