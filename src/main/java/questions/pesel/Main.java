@@ -8,6 +8,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Wprowadz swoj pesel \n(Pesel powinnien skladac sie z samych liczb a jego dlugosc to 11 znakow)");
+
         String yourPesel = scanner.nextLine();
 
 
